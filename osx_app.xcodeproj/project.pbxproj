@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C8DA09820DFEEB300A7016A /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DA09720DFEEB300A7016A /* screenshot1.png */; };
 		7CB0D97B20D6A4F60095685A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0D97A20D6A4F60095685A /* AppDelegate.swift */; };
 		7CB0D97D20D6A4F60095685A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0D97C20D6A4F60095685A /* ViewController.swift */; };
 		7CB0D97F20D6A4F70095685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB0D97E20D6A4F70095685A /* Assets.xcassets */; };
@@ -33,7 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7CB0D97720D6A4F60095685A /* osx_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osx_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8DA09620DFEDBE00A7016A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C8DA09720DFEEB300A7016A /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		7CB0D97720D6A4F60095685A /* TinyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB0D97A20D6A4F60095685A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB0D97C20D6A4F60095685A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CB0D97E20D6A4F70095685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,7 +89,7 @@
 		7CB0D97820D6A4F60095685A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CB0D97720D6A4F60095685A /* osx_app.app */,
+				7CB0D97720D6A4F60095685A /* TinyPlayer.app */,
 				7CB0D98920D6A4F70095685A /* osx_appTests.xctest */,
 				7CB0D99420D6A4F70095685A /* osx_appUITests.xctest */,
 			);
@@ -96,12 +99,14 @@
 		7CB0D97920D6A4F60095685A /* osx_app */ = {
 			isa = PBXGroup;
 			children = (
+				7C8DA09720DFEEB300A7016A /* screenshot1.png */,
 				7CB0D97A20D6A4F60095685A /* AppDelegate.swift */,
 				7CB0D97C20D6A4F60095685A /* ViewController.swift */,
 				7CB0D97E20D6A4F70095685A /* Assets.xcassets */,
 				7CB0D98020D6A4F70095685A /* Main.storyboard */,
 				7CB0D98320D6A4F70095685A /* Info.plist */,
 				7CB0D98420D6A4F70095685A /* osx_app.entitlements */,
+				7C8DA09620DFEDBE00A7016A /* README.md */,
 			);
 			path = osx_app;
 			sourceTree = "<group>";
@@ -127,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CB0D97620D6A4F60095685A /* osx_app */ = {
+		7CB0D97620D6A4F60095685A /* TinyPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CB0D99D20D6A4F70095685A /* Build configuration list for PBXNativeTarget "osx_app" */;
+			buildConfigurationList = 7CB0D99D20D6A4F70095685A /* Build configuration list for PBXNativeTarget "TinyPlayer" */;
 			buildPhases = (
 				7CB0D97320D6A4F60095685A /* Sources */,
 				7CB0D97420D6A4F60095685A /* Frameworks */,
@@ -139,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = osx_app;
+			name = TinyPlayer;
 			productName = osx_app;
-			productReference = 7CB0D97720D6A4F60095685A /* osx_app.app */;
+			productReference = 7CB0D97720D6A4F60095685A /* TinyPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7CB0D98820D6A4F70095685A /* osx_appTests */ = {
@@ -216,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CB0D97620D6A4F60095685A /* osx_app */,
+				7CB0D97620D6A4F60095685A /* TinyPlayer */,
 				7CB0D98820D6A4F70095685A /* osx_appTests */,
 				7CB0D99320D6A4F70095685A /* osx_appUITests */,
 			);
@@ -228,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8DA09820DFEEB300A7016A /* screenshot1.png in Resources */,
 				7CB0D97F20D6A4F70095685A /* Assets.xcassets in Resources */,
 				7CB0D98220D6A4F70095685A /* Main.storyboard in Resources */,
 			);
@@ -280,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		7CB0D98B20D6A4F70095685A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CB0D97620D6A4F60095685A /* osx_app */;
+			target = 7CB0D97620D6A4F60095685A /* TinyPlayer */;
 			targetProxy = 7CB0D98A20D6A4F70095685A /* PBXContainerItemProxy */;
 		};
 		7CB0D99620D6A4F70095685A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CB0D97620D6A4F60095685A /* osx_app */;
+			target = 7CB0D97620D6A4F60095685A /* TinyPlayer */;
 			targetProxy = 7CB0D99520D6A4F70095685A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -541,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CB0D99D20D6A4F70095685A /* Build configuration list for PBXNativeTarget "osx_app" */ = {
+		7CB0D99D20D6A4F70095685A /* Build configuration list for PBXNativeTarget "TinyPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CB0D99E20D6A4F70095685A /* Debug */,
