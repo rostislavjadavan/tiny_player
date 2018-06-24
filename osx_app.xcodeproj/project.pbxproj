@@ -34,8 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C8DA09620DFEDBE00A7016A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7C8DA09720DFEEB300A7016A /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		7C8DA09620DFEDBE00A7016A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C8DA09720DFEEB300A7016A /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = ../screenshot1.png; sourceTree = "<group>"; };
 		7CB0D97720D6A4F60095685A /* TinyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB0D97A20D6A4F60095685A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB0D97C20D6A4F60095685A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
